@@ -1,4 +1,6 @@
-const URL = "https://teachablemachine.withgoogle.com/models/UMbiwGhYn/";
+const URL = "https://teachablemachine.withgoogle.com/models/x6SdF62T4/";
+
+
 let model, webcam, labelContainer, maxPredictions;
 
 async function init() {
