@@ -1,0 +1,62 @@
+/* style.css */
+
+
+body {
+  background-color: rgb(180, 180, 180) !important;
+}
+.progress-bar-container {
+  padding: 30px 0; /* Adjusted padding */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 600%; /* Increased width */
+  text-align: left;
+}
+
+.progress-bar .progress {
+  height: 60px; /* Increased height */
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #eee;
+}
+
+.progress-bar .progress-bar {
+  border-radius: 20px;
+}
+
+.bottom-section {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff; /* Set background color as needed */
+  padding: 10px; /* Add padding for better visibility */
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better separation */
+}
+
+/*image box*/
+.image-input-box {
+  border: 2px dashed #ddd;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.image-input-label {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.image-input-text {
+  font-size: 18px;
+  color: #555;
+}
+.uploaded-image {
+  max-width: 100%;
+  max-height: 300px; /* Set your desired max height */
+  margin-bottom: 10px;
+}
